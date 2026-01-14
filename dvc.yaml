@@ -1,6 +1,7 @@
 stages:
   clean:
-    cmd: python clean.py
+    #cmd: python clean.py
+    cmd:  ~/.venvs/myenv/bin/python clean.py
     deps:
       - clean.py
       - data.csv
