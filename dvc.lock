@@ -1,0 +1,18 @@
+schema: '2.0'
+stages:
+  clean:
+    cmd: python clean.py
+    deps:
+    - path: clean.py
+      hash: md5
+      md5: 0888733ecb9c8801676338b52f163469
+      size: 145
+    - path: data.csv
+      hash: md5
+      md5: e77a95deb75116205ae01e8a7196d50f
+      size: 23
+    outs:
+    - path: data_clean.csv
+      hash: md5
+      md5: b9a2c1ccb1e7330a7aab77ff95eb520a
+      size: 30
